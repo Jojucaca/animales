@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+   
+}
+
+.slider-frame {
+    width: auto;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+    animation: slide 0s infinite alternate ease-in-out;
+}
+
+.slider-frame ul {
+    display: flex;
+    padding: 0;
+    width: 400%;    
+    
+}
+
+.slider-frame li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img {
+    width: 100%;
+   
+}
+
+@keyframes slide {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    95% {margin-left: -300%;}
+
+}
+
+
+
+
+
+h1{text-align: center;
+    color:var(--verdeoscuro);
+    font-size: 2rem;
+    width: 3.8;
+}
+:root{
+    --verdeoscuro:#488C03;
+    --verdeclaro:#A6BF49;
+    --verdemasclaro:#EFF294;
+    --amarillo:#F2E205;
+    --claro:#F2E8B3;
+    --fuetepricipal: 3.8rem;
+}
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+html{
+    font-size: 62.5
+}
+body{
+    font-size: 16px; /*1 rem =10px*/
+}
+
+
+span{
+    font-size: 2rem;
+}
+
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+    
+}
+.nav-bg{
+    background-color: var(--verdeclaro);
+    display: flex;
+    align-items: center;
+    justify-items: space-between;
+    height: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+    margin-right: 30px;
+    
+
+}
+.navegacion-principal {
+    background-color: var(--claro);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a{
+    text-decoration: none;
+    color: rgb(122, 122, 20);
+   font-size: 0.5rem;
+   font-weight: 700;
+   
+
+}
+.navegacion-principal a {:hover 
+    background-color: brown;
+
+}
+
+.navegacion-principal a:hover{
+    background: rgb(224, 239, 139);
+    padding: 2px 2px;
+
+}
+
+p{
+    margin: 2rem 4rem;
+    text-align: justify;
+
+}
+
+h5{
+    margin: 0.5rem 4rem;
+    text-align: justify;
+}
+
+h3{
+    margin: 2rem 4rem;
+    text-align: justify;
+
+}
